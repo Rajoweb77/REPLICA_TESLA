@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replica_Tesla_Website</title>
+    
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--NAVBAR-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm py-2">
+
+    <div class="container-fluid px-5">
+
+      <a href="#" class="navbar-brand">
+        <img src="https://www.logo.wine/a/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Wordmark-Black-Logo.wine.svg" alt="Logo Tesla" height="55">
+      </a>
+
+      <!--button nascosto toggle hamburgher menu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+        <ul class="navbar-nav gap-3">
+          <li class="navbar-item"><a class="nav-link active" href="">Veicoli</a></li>
+          <li class="navbar-item"><a class="nav-link" href="">Energia</a></li>
+          <li class="navbar-item"><a class="nav-link" href="">Ricarica</a></li>
+          <li class="navbar-item"><a class="nav-link" href="">Scoprire</a></li>
+          <li class="navbar-item"><a class="nav-link" href="">Shop</a></li>
+        </ul>
+
+
+        <div class="d-none d-lg-flex align-items-center gap-3">
+
+          <i class="bi bi-question-circle"></i>
+          <i class="bi bi-globe"></i>
+          <i class="bi bi-person-circle"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+
+  
+  <!--HERO SECTION-->
+  <section id="hero" class="mt-5 pt-4">
+
+    <div id="carouselTesla" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+        <div class="carousel-inner">
+
+          <!--prima slide-->
+          <div class="carousel-item active">
+
+            <img class="d-block w-100" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Carousel-Model-Y-Performance-Desktop-EMEA.png" alt="Model 3">
+
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+
+              <h1 class="text-white fw-bold display-4">Model 3</h1>
+
+              <div class="mt-3">
+
+                <a href="" class="btn btn-primary px-4 py-2 me-2">Ordina Ora</a>
+                <a href="" class="btn btn-light px-4 py-2 me-2">Test Drive</a>
+
+              </div>
+            </div>
+          </div>
+
+
+          <!--seconda slide-->
+
+          <div class="carousel-item">
+
+            <img class="d-block w-100" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promotional-Carousel-Model-3-Desktop-US.png" alt="Model Y">
+
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+
+              <h1 class="text-white fw-bold display-4">Model Y</h1>
+
+              <div class="mt-3">
+
+                <a href="" class="btn btn-primary px-4 py-2 me-2">Ordina Ora</a>
+                <a href="" class="btn btn-light px-4 py-2 me-2">Test Drive</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!--4 CARD SECTION-->
+  <section class="models-carousel py-5">
+    <div class="container-fluid px-5">
+      <div id="carouselModels" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!--Prime 2 card-->
+          <div class="carousel-item active">
+            <div class="row g-4">
+
+
+              <!--MODEL Y-->
+              <div class="col-md-6">
+                <div class="card model-card text-white border-0">
+                  <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-Y-Performance-Desktop-EMEA.png" alt="Model Y">
+                  
+                  <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                    <div>
+                      <p class="small mb-1">SUV di medie dimensioni</p>
+                    </div>
+
+                    <div>
+
+                      <h3 class="fw-bold mb-3">Model Y</h3>
+                      <div class="d-flex gap-2">
+                        <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                        <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <!--MODEL 3-->
+              <div class="col-md-6">
+                <div class="card model-card text-white border-0">
+                  <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-3-Desktop.png" alt="Model 3">
+                  
+                  <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                    <div>
+                      <p class="small mb-1">Berlina Sportiva</p>
+                    </div>
+
+                    <div>
+
+                      <h3 class="fw-bold mb-3">Model 3</h3>
+                      <div class="d-flex gap-2">
+                        <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                        <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Seconde 2 card-->
+          <div class="carousel-item">
+            <div class="row g-4">
+
+
+
+              <!--MODEL S-->
+              <div class="col-md-6">
+                <div class="card model-card text-white border-0">
+                  <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-S-Desktop.png" alt="Model S">
+                  
+                  <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                    <div>
+                      <p class="small mb-1">Berlina di Lusso</p>
+                    </div>
+
+                    <div>
+
+                      <h3 class="fw-bold mb-3">Model S</h3>
+                      <p class="small mb-1">Disponibile con ricariche Supercharger illimitate gratuite e Premium Connectivity</p>
+                      <div class="d-flex gap-2">
+                        <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                        <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+              <!--MODEL X-->
+              <div class="col-md-6">
+                <div class="card model-card text-white border-0">
+                  <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-X-Desktop.png" alt="Model X">
+                  
+                  <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                    <div>
+                      <p class="small mb-1">SUV di Lusso</p>
+                    </div>
+
+                    <div>
+
+                      <h3 class="fw-bold mb-3">Model X</h3>
+                      <p class="small mb-1">Disponibile con ricariche Supercharger illimitate gratuite e Premium Connectivity</p>
+                      <div class="d-flex gap-2">
+                        <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                        <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+          <!--Indicatori-->
+          <div class="carousel-indicators position-static mt-4">
+
+            <button type="button" data-bs-target="#carouselModels" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselModels" data-bs-slide-to="1"></button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--INFO SECTION TEST AND SHOP-->
+  <section class="tesla-cards py-2">
+    <div class="container-fluid px-5">
+
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="card info-card border-0 d-flex flex-row align-items-center">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-2">Prova una Tesla</h4>
+              <p class="text-muted mb-3">Prenota oggi stesso un test drive.</p>
+              <a class="btn btn-light" href="">Prenota un test drive</a>
+            </div>
+
+            <img class="card-img-right rounded-end" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-Test-Drive-Global.png" alt="Test drive">
+          </div>
+
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="card info-card border-0 d-flex flex-row align-items-center">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-2">Tesla Shop</h4>
+              <p class="text-muted mb-3">Acquista accessori per il veicolo e articoli di merchandising a marchio Tesla.</p>
+              <a class="btn btn-light" href="">Acquista ora</a>
+            </div>
+
+            <img class="card-img-right rounded-end" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-Accessories-Global.png" alt="Test drive">
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--MAPS SECTION-->
+
+  <section class="tesla-map py-2">
+    <div class="container-fluid px-5">
+      <div class="map-wrapper rounded-4 overflow-hidden shadow-sm">
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d45300.22913258243!2d10.322306392686786!3d44.79580161938318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1760016135511!5m2!1sit!2sit" 
+            width="100%"
+            height="500"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+
+      </div>
+    </div>
+  </section>
+
+  <!--CHARGE SECTION-->
+  <section class="tesla-charging p-2">
+    <div class="container-fluid px-5">
+      <div class="row align-items-center justify-content-between">
+        
+        <!--parte sinistra-->
+
+        <div class="col-md-8">
+          <h2>Trova la tua Ricarica</h2>
+          <p>Visualizza la rete di Supercharger e Destination Charger Tesla disponibili nella tua zona.</p>
+          <div>
+            <a class="btn btn-dark px-4 py-2" href="">Visualizza rete</a>
+            <a class="btn btn-light px-4 py-2" href="">Per saperne di più</a>
+          </div>
+        </div>
+
+        <!--parte destra-->
+        <div class="col-md-4 justify-content-md-end justify-content-start gap-5">
+
+          <div class="text-center">
+
+            <div class="d-flex align-items-center justify-content-center gap-2 mb-1">
+
+              <h3 class="fw-bold mb-0">13.968</h3>
+              <span class="bg-danger text-white">
+
+                
+              </span>
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+    
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.js"></script>
+</body>
+</html>
